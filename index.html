@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration From </title>
+</head>
+<body>
+    <div class="container">
+     <form action="/" id="form">
+        <h1>Creat Account</h1>
+        <div class="input-grp">
+            <label for="fullname">*Full Name</label>
+            <input type="text" name="fullname" id="fullname" class="form fullname" placeholder="Type your full name">
+            <div class="error"></div>
+        </div>
+        <div class="input-grp">
+            <label for="username">*Define Username</label>
+            <input type="text" name="username" id="username" class="form username" placeholder="Type your unique username">
+            <div class="error"></div>
+        </div>
+        <div class="input-grp">
+            <label for="emailid">*Your email</label>
+            <input type="email" name="emailid" id="emailid" class="form emailid" placeholder="Type your email address">
+            <div class="error"></div>
+        </div>
+        <div class="input-grp">
+            <label for="number">*Phone Number</label>
+            <input type="tel" name="tel" id="phonenumber" class="form tel" placeholder="Type your Phone number">
+            <div class="error"></div>
+        </div>
+        <div class="input-grp">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" class="form dob">
+            <div class="error"></div>
+        </div>
+        <div class="input-grp">
+            <h2>Your Gender</h2> 
+            <select name="gender" id="gender">
+                <option value="other">others</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="input-grp">
+            <h2>*Write Yourself</h2> 
+            <textarea name="comment" id="comment" cols="10" rows="10" placeholder="Write something about yourself"></textarea>
+        </div>
+        <div class="input-grp">
+            <label for="password">*Password</label>
+            <input type="password" name="original-password" id="originalPassword" placeholder="Type here a unique and strong password">
+            <div class="error"></div>
+        </div>
+        <div class="input-grp">
+            <label for="password">*Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirmPassword" placeholder="Retype your unique and strong password">
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <input type="checkbox" name="checkbox" id="checkbox" class="checkbox"> 
+            <label for="checkbox" class="checkbox">
+                *I agree to the Terms and Conditions(TAC).
+            </label>
+            <div class="error"></div>
+        </div>
+        <button type="submit" id="submit">submit</button>
+        </form>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
