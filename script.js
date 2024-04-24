@@ -11,6 +11,7 @@ const button=document.getElementById('submit');
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     validateInputs();
+    alert("form submitted");
 });
 
 const validateInputs =()=>{
