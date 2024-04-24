@@ -12,6 +12,7 @@ form.addEventListener('submit',(e)=>{
     e.preventDefault();
     validateInputs();
     alert("form submitted");
+    window.location.reload();
 });
 
 const validateInputs =()=>{
